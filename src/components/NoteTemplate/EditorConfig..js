@@ -39,7 +39,7 @@ export const editorConfig = {
 
 
     // const createNewNote = () => {
-    //                 fetch('https://reddy-client-33.onrender.com/notes', {
+    //                 fetch('https://reddy-server-33.onrender.com/notes', {
     //             method: 'POST',
     //             body: JSON.stringify({Title: "Test", Content: content}),
     //             headers: {
@@ -103,7 +103,7 @@ export const editorConfig = {
 
 
       //   const getANote = async(id) => {
-  //     await   fetch(`https://reddy-client-33.onrender.com/notes/${id}`)
+  //     await   fetch(`https://reddy-server-33.onrender.com/notes/${id}`)
   //         .then(res => res.json())
   //         .then(data => { console.log(data)
   //             setContent(data?.Content)
